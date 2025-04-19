@@ -1,0 +1,124 @@
+.page {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0px;
+  background-color: rgb(226, 231, 235);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+button {
+    background-color: #222222;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444444;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+}
+
+#locations {
+    padding: 10px;
+    background-color: #999999;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#account_actions {
+    align-items: right;
+    justify-content: end;
+}
+
+#gap {
+    margin-right: 25%;
+}
+
+.span-size {
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 20px;
+}
+
+.welcome {
+    padding: 10px;
+    background-color: #00000090;
+}
+
+.image-bg {
+    background-image: url('./bus.png'); 
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.big {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.big:hover {
+    padding: 12px
+}
+
+input {
+    background-color: #fefefe;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #eeeeee;
+}
+
+.upgrade {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 5px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.map-screen {
+    width: 1000px; 
+    height: 500px;
+}
+
+li {
+    color: green;
+}
+
+.plans {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.plan {
+    background-color: #efefef;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    margin: 5px;
+}
